@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+<<<<<<< HEAD
 import seaborn as sns
 from scipy import stats
 
@@ -21,3 +22,7 @@ for i in range(len(n_params)):
 ax[2, 1].set_xlabel('$\\theta$', fontsize=14)
 ax[1, 0].set_ylabel('$p(y|\\theta)$', fontsize=14)
 ax[0, 0].set_xticks(x)
+=======
+
+from scipy import stats
+>>>>>>> 8cb9cd0ce9f35148d5e70760fa07e9d6750b912b
